@@ -2,8 +2,9 @@ import os
 
 
 def main():
-    lenguaje = os.getenv("phyton")
-    print(f"¡Hola, {lenguaje} desde GitHub!")
+    lenguaje_favorito = os.getenv("LANGUAGE")
+    nombre = os.getenv("USERNAME")
+    print(f"¡Hola, mundo desde {lenguaje} soy {nombre}!")
 
 
 if __name__ == "__main__":
